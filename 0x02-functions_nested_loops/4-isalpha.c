@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * 4-is_aplha - Declares whether c is an aplhabet
- * @c: Value to be compared
+ * _isaplha - check for lower case letter
+ * @c : character to check 
  * return; always return 0;
  */
+
 int _isalpha(int c)
 {
 if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
