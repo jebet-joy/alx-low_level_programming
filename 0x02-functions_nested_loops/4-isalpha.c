@@ -3,12 +3,12 @@
 /**
  * _isaplha - check for lower case letter
  * @c : character to check 
- * return; always return 0;
+ * Return:0 or 1
  */
 
 int _isalpha(int c)
 {
-if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
+return ((c >= 'a' && c < 'z') || (c > 'A' && c < 'Z'))
 {
 return (1);
 }
