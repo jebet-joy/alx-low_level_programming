@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * _isaplha - Declares whether c is an aplhabet
- * @c: Value to be compared
- * return; always return 0;
+ *_isalpha - check for lower case letter
+ *@c : character to check
+ *Return:0 or 1
  */
 int _isalpha(int c)
 {
