@@ -1,21 +1,15 @@
-#include "main.h"
+#ifndef MAIN_H_
+#define MAIN_H_
 
-/**
- * _memset - fills memory with a constant byte.
- * @s: memory area pointer.
- * @b: constant byte to be filled with
- * @n: number of bytes to be filled
- * Return: char*
- */
+int _putchar(char c);
+char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
+char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
+void set_string(char **s, char *to);
 
-char *_memset(char *s, char b, unsigned int n)
-{
-unsigned int i = 0;
-while (i < n)
-{
-s[i] = b;
-i++;
-}
-
-return (s);
-}
+#endif
