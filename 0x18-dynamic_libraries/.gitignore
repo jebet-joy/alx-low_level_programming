@@ -1,0 +1,5 @@
+*.c
+*.o
+100-operations.sh
+crack.sh
+tests/
